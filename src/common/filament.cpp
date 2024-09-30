@@ -24,8 +24,8 @@ constexpr filament::Description filaments[size_t(filament::Type::_last) + 1] = {
     { 215, 170, 75, Response::PVB },
     { 255, 170, 100, Response::ABS },
     { 220, 170, 100, Response::HIPS },
-    { 240, 170, 100, Response::PP },
-    { PA_NOZZLE, 170, 100, Response::PA },
+    { 240, 160, 60, Response::PP },
+    { PA_NOZZLE, 140, 60, Response::PA },
     { 240, FLEX_NOZZLE_PREHEAT, 50, Response::FLEX },
 };
 
