@@ -31,6 +31,13 @@ Run `python utils/build.py`. The binaries are then going to be stored under `./b
 - Find more options using the `--help` flag!
 
 #### Examples:
+building mk4 and XL Firmware with custom temperature changes
+```bash
+python utils/build.py --preset mk4,xl --build-type debug --generate-bbf
+```
+```bash
+cp -r build/products ~/rf3_sandkuehlerj/prusa_firmware_output
+```
 
 Build the firmware for MINI and XL in `debug` mode:
 
